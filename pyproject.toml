@@ -2,16 +2,16 @@
 name = "fastapi-tutorial-at-pycon"
 version = "0.1.0"
 description = ""
-authors = ["raccoony <raccoonyy@gmail.com>"]
+authors = ["raccoony <raccoonyy@gmail.com>", "jungmir <ham4051@gmail.com>"]
 readme = "README.md"
 packages = [{include = "fastapi_tutorial_at_pycon"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.100.1"
-requests = "^2.31.0"
 uvicorn = "^0.23.2"
 aiofiles = "^23.1.0"
+httpx = "^0.24.1"
 
 
 [build-system]
